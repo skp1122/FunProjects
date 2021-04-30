@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Mono:ital,wght@0,200;1,500&family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin:12px 0 ;
+}
+.container{
+    min-height: 80vh;
+    margin: 43px 0;
+}
+.container h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    font-size: 17px;
+    border: 2px solid rgb(238, 133, 133);
+    border-radius: 10px;
+    outline: none;
+    padding: 9px;
+    margin: 8px;
+}
+.btn{
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 2px solid red;
+    border-radius: 10px;
+    color:white;
+    outline: none;
+    margin: 26px;
+    background: #d43b3b;
+    cursor: pointer;
+}
